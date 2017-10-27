@@ -5,7 +5,7 @@
 ************************************************/
 
 //include libraries
-#include <cs50.h>
+#include "cs50.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -68,7 +68,7 @@ int main(int argc, char* argv[]) {
     }
     //if no flag is detected
     else {
-        printf("Improper usage. Enter \"cracker help\" for help.\n");
+        printf("Improper usage.\n");
         return 8;
     }
         //find out how long the input is
